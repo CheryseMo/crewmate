@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Press Start 2P', cursive;
+  color: #1d3557;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  font-family: inherit;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin: 0.25rem;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.primary-btn {
+  background-color: #e63946;
+  color: white;
+}
+
+.secondary-btn {
+  background-color: #2a9d8f;
+  color: white;
+}
+
+.card {
+  background-color: #f1faee;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.clouds {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.sparkle-text {
+  position: relative;
+  color: #ffd60a;
+  font-size: 1.5rem;
+  animation: sparkle 1.5s infinite;
+}
+
+@keyframes sparkle {
+  0% { text-shadow: 0 0 5px #ffd60a; }
+  50% { text-shadow: 0 0 20px #ffd60a; }
+  100% { text-shadow: 0 0 5px #ffd60a; }
+}

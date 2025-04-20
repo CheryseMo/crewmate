@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.crewmate-list {
+  font-family: 'Press Start 2P', cursive;
+  padding: 2rem;
+  background: linear-gradient(to bottom, #74c0fc, #d0f4f0);
+  min-height: 100vh;
+  color: #2d3142;
+}
+
+.card {
+  background-color: #f1faee;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.primary-btn {
+  background-color: #e63946;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 12px;
+  text-decoration: none;
+  font-size: 0.8rem;
+  box-shadow: 3px 3px 0 #222;
+  transition: transform 0.2s ease;
+}
+
+.primary-btn:hover {
+  transform: scale(1.05);
+}
+
+.sparkle-text {
+  position: relative;
+  color: #ffd60a;
+  font-size: 1.5rem;
+  animation: sparkle 1.5s infinite;
+}
+
+@keyframes sparkle {
+  0% { text-shadow: 0 0 5px #ffd60a; }
+  50% { text-shadow: 0 0 20px #ffd60a; }
+  100% { text-shadow: 0 0 5px #ffd60a; }
+}
